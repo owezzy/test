@@ -30,7 +30,31 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "lodash",
+              "@aws-amplify/ui",
+              "cookie",
+              "fast-xml-parser",
+              "js-cookie",
+              "isomorphic-unfetch",
+              "crypto-js",
+              "buffer",
+              "@aws-crypto/crc32",
+              "@aws-crypto/sha256-browser",
+              "style-dictionary/lib/utils/references/usesReference",
+              "style-dictionary/lib/utils/flattenProperties",
+              "style-dictionary/lib/utils/deepExtend",
+              "uuid",
+              "url",
+              "@aws-crypto/sha256-js",
+              "ulid",
+              "camelcase-keys",
+              "paho-mqtt",
+              "qrcode",
+              "commonJs",
+              "xstate/lib/actions"
+            ]
           },
           "configurations": {
             "production": {
